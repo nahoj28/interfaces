@@ -10,6 +10,19 @@ div.languages {
 	top: 0.1em;
 }
 
+div.languages div {
+	background-color:#99cc66;
+	color:#ffffcc;
+	display: inline-block;
+	font-size:16px;
+	font-weight:bold;
+	padding: 0.5em;
+	text-align:center;
+	-webkit-border-radius: 3px;
+}
+
+
+
 header {
 	margin: 0 auto;
 	max-width: 1020px;
@@ -17,6 +30,13 @@ header {
 	position: relative;
 }
 
+header div.separator
+{
+	background-color: green;
+	height: 0.7em;
+	margin-top:40px;
+	width: auto;
+}
 header nav ul {
 	list-style: none;
 	position: absolute;
@@ -105,14 +125,6 @@ footer nav ul li a {
 	width: 110px;
 }
 
-.languages div {
-	background-color:#99cc66;
-	color:#ffffcc;
-	display: inline-block;
-	padding: 0.5em;
-	text-align:center;
-	-webkit-border-radius: 3px;
-}
 
 #search {
 	background-color: #e5e6e6;
