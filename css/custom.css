@@ -1,0 +1,228 @@
+body {
+	background: #ffffcc;
+	font-family: Century Gothic;
+}
+
+div.languages {
+	margin-top: 0px;
+	position: absolute;
+	right: 0.1em;
+	top: 0.1em;
+}
+
+header {
+	margin: 0 auto;
+	max-width: 1020px;
+	text-align: left;
+	position: relative;
+}
+
+header nav ul {
+	list-style: none;
+	position: absolute;
+	right: 0.1em;
+	top: 6em;
+}
+
+header nav ul li {
+	display: inline-block;
+}
+
+header nav ul li a {
+	color: #817D7B;
+	display: block;
+	font-weight: bold;
+	font-size: 1em;
+	font-style: italic;
+	text-align: center;
+	text-decoration: none;
+	margin-left: 5em;
+	padding: 0.5em 1em;
+}
+
+header nav ul li a:hover {
+	background: -webkit-linear-gradient(#5bb318, #299a34);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#5bb318, #299a34);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#5bb318, #299a34);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(#5bb318, #299a34);
+	/* Standard syntax (must be last) */
+	border: 1px solid;
+	border-radius: 10px;
+	color: #FFF;
+}
+
+footer {
+	background: -webkit-linear-gradient(#5bb318, #299a34);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#5bb318, #299a34);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#5bb318, #299a34);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(#5bb318, #299a34);
+	/* Standard syntax (must be last) */
+	color: #FFF;
+	height: 12em;
+}
+
+footer div {
+	display: inline;
+	float: right;
+	position: relative;
+	top: -3em;
+	right: 6em;
+}
+
+footer nav ul {
+	list-style: none;
+	margin: 3em 0 1em 0;
+}
+
+footer nav ul li {
+	display: inline-block;
+}
+
+footer nav ul li a {
+	color: #32452b;
+	display: block;
+	font-size: 0.9em;
+	font-style: italic;
+	margin: 2em 0.5em 2em 0.5em;
+	padding: 0.3em 0.3em;
+	text-align: center;
+	text-decoration: none;
+	width: 6em;
+}
+
+.logo {
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 83px;
+	margin-top: 2em;
+	width: 110px;
+}
+
+.languages div {
+	background-color:#99cc66;
+	color:#ffffcc;
+	display: inline-block;
+	padding: 0.5em;
+	text-align:center;
+	-webkit-border-radius: 3px;
+}
+
+#search {
+	background-color: #e5e6e6;
+	border: 0 none;
+	display: inline;
+	position: absolute;
+	right: 0.1em;
+	top: 4.5em;
+	font: bold 12px Arial, Helvetica, Sans-serif;
+	padding: 12px 2px 12px 5px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0
+		rgba(0, 0, 0, 0.9) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0
+		rgba(0, 0, 0, 0.9) inset;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9)
+		inset;
+}
+
+#search label[for="search"] {
+	display: none;
+}
+
+#search input[type="text"] {
+	background-color: #e5e6e6;
+	border-style: none;
+	width: 15em;
+}
+
+section {
+	border: 4px 0 0 0;
+	margin-top: 1.8em;
+	margin-left: 12%;
+	overflow: hidden;
+}
+
+section h2 {
+	font-style: bold;
+	font-size: 2em;
+}
+
+section aside {
+	padding: 1em 1.6em 0.5em 1.6em;
+	background: #CCC;
+	float: left;
+	margin-bottom: 2em;
+	text-align: center;
+	width: 13em;
+}
+
+section aside a {
+	background: #333;
+	color: #FFF;
+	display: block;
+	font-size: 1.5em;
+	padding: 0.8em 1em;
+	text-decoration: none;
+}
+
+section aside div {
+	font-size: 2em;
+	text-align: right;
+}
+
+section aside p.derecha {
+	text-align: left;
+}
+
+section aside p#think {
+	color: #0c66c0;
+	font-size: 2.2em;
+}
+
+section content {
+	color: #333;
+	display: block;
+	padding-left: 18em;
+	margin-right: 15%;
+}
+
+section content ul {
+	color: #0066cc;
+}
+
+section content ul span {
+	color: #333;
+	font-weight: bold;
+}
+
+@media ( max-width : 670px) {
+	header h1 {font-size 0.8em;
+		padding: 0.8em 1em 0em 1em;
+	}
+	section aside {
+		display: none;
+	}
+	nav ul {
+		margin: 0
+	}
+	nav ul li a {
+		font-size: 0.8em;
+		padding: 0.3em 0.5em;
+	}
+	section content {
+		padding-left: 0;
+	}
+	section content div {
+		display: none;
+	}
+}
