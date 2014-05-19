@@ -1,0 +1,118 @@
+$headerBackColor: #f2f0de;
+$headerMenuColor: #817d7b;
+$headerColor: #363636;
+$headerLinks: #f7f8c8;
+$fontSite: "Century Gothic";
+$colorPagination: #97c433;
+$colorShadow: #484848;
+
+@mixin stylesCenter{
+	width: 59.375em;
+	margin: 0 auto;
+}
+
+@mixin buttonAdditionals{
+	color: $headerLinks;
+	background: $colorPagination;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 
+		1px 1px 1px $colorShadow,
+		inset 0 4px 5px #daf5aa;
+	text-align: center;
+	display: inline-block;
+}
+
+body{
+	font-family: $fontSite;
+	font-size: 1em;
+}
+
+ul{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+header {
+	background-color: $headerBackColor;
+
+	div.content-header {
+		@include stylesCenter;
+		height: 130px;
+		padding: 10px 0px;
+
+		div.logo {
+			float: left;
+			width: 20%;
+
+			h1 {
+				margin: 0;
+				margin-top: 10px;
+
+				a {
+					background-image: url('../images/logo.png');
+					background-color: transparent;
+					background-repeat: no-repeat;
+					height: 104px;
+					width: 138px;
+					display: block;
+					text-indent: -9999px;
+				}
+			}
+		}
+
+		div.left-side {
+			float: right;
+			width: 80%;
+			text-align: right;
+
+			div.language-menu{
+				text-align:  right;
+				height: 40px;
+
+				a {
+					@include buttonAdditionals;
+					padding-top: 2px;
+					width: 35px;
+					height: 25px;
+				}
+			}
+
+			div.search {
+				height:  40px;
+			}
+
+			nav {
+				ul {
+					font-size: 1.125em;
+					
+					font-weight: bold;
+					li, li.middle {
+						display: inline-block;
+						width: 130px;
+						text-align: center;
+						
+						a{
+							color: $headerMenuColor;
+						}
+					}
+					li.middle{
+						width: 78px;
+					}
+				}
+			}
+		}
+
+	}
+	hr{
+		background-image: url('../images/border-header.jpg');
+		background-color: transparent;
+		background-repeat: repeat-x;
+		height: 14px;
+		border: none;
+	}
+
+}

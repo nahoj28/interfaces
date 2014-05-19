@@ -1,0 +1,68 @@
+body {
+  font-family: "Century Gothic";
+  font-size: 1em; }
+
+ul {
+  list-style-type: none; }
+
+a {
+  text-decoration: none; }
+
+header {
+  background-color: #f2f0de; }
+  header div.content-header {
+    width: 59.375em;
+    margin: 0 auto;
+    height: 130px;
+    padding: 10px 0px; }
+    header div.content-header div.logo {
+      float: left;
+      width: 20%; }
+      header div.content-header div.logo h1 {
+        margin: 0;
+        margin-top: 10px; }
+        header div.content-header div.logo h1 a {
+          background-image: url("../images/logo.png");
+          background-color: transparent;
+          background-repeat: no-repeat;
+          height: 104px;
+          width: 138px;
+          display: block;
+          text-indent: -9999px; }
+    header div.content-header div.left-side {
+      float: right;
+      width: 80%;
+      text-align: right; }
+      header div.content-header div.left-side div.language-menu {
+        text-align: right;
+        height: 40px; }
+        header div.content-header div.left-side div.language-menu a {
+          color: #f7f8c8;
+          background: #97c433;
+          border: none;
+          border-radius: 5px;
+          box-shadow: 1px 1px 1px #484848, inset 0 4px 5px #daf5aa;
+          text-align: center;
+          display: inline-block;
+          padding-top: 2px;
+          width: 35px;
+          height: 25px; }
+      header div.content-header div.left-side div.search {
+        height: 40px; }
+      header div.content-header div.left-side nav ul {
+        font-size: 1.125em;
+        font-weight: bold; }
+        header div.content-header div.left-side nav ul li, header div.content-header div.left-side nav ul li.middle {
+          display: inline-block;
+          width: 130px;
+          text-align: center; }
+          header div.content-header div.left-side nav ul li a, header div.content-header div.left-side nav ul li.middle a {
+            color: #817d7b; }
+        header div.content-header div.left-side nav ul li.middle {
+          width: 78px; }
+  header hr {
+    background-image: url("../images/border-header.jpg");
+    background-color: transparent;
+    background-repeat: repeat-x;
+    height: 14px;
+    border: none; }
