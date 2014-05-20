@@ -3,6 +3,7 @@ body {
 	font-family: Century Gothic;
 }
 
+
 div.languages {
 	margin-top: 0px;
 	position: absolute;
@@ -90,6 +91,393 @@ header nav ul li a:hover {
 	color: #FFF;
 }
 
+section {
+	border: 4px 0 0 0;
+	margin-top: 1.8em;
+	margin-left: 12%;
+	max-width: 1020px;
+	overflow: hidden;
+}
+
+section h2 {
+	font-style: bold;
+	font-size: 2em;
+}
+
+section aside {
+	padding: 0em 1.6em 0.5em 3em;
+	float: left;
+	margin-bottom: 2em;
+	width: 18em;
+}
+
+section aside a {
+	background: #333;
+	color: #FFF;
+	display: block;
+	font-size: 1.5em;
+	padding: 0.8em 1em;
+	text-decoration: none;
+}
+
+section aside div {
+	font-size: 2em;
+	text-align: right;
+}
+
+section aside p.derecha {
+	text-align: left;
+}
+
+section content {
+	color: #333;
+	display: block;
+	margin: auto;
+	
+}
+
+section content ul {
+	color: #0066cc;
+}
+
+SECTION.container
+{
+	width: 1200px;
+}
+SECTION.containerDetail
+{
+	width: 1200px;
+	margin-left: 0%;
+}
+
+
+SECTION#BlogHeader DIV
+{
+	float: left;
+	padding-right: 10px;
+}
+
+
+DIV.BlogPostPreview
+{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+
+}
+
+DIV.BlogPost
+{
+	margin-bottom: 20px;
+
+}
+
+DIV.readMore
+{
+	color: #329f2f;
+	font-weight: bold;
+	float: right;
+}
+DIV.returnLink
+{
+	color: #329f2f;
+	font-weight: bold;
+}
+
+HR
+{
+	color: #329f2f;
+	background-color: #329f2f;
+	height: 2px;
+}
+
+SECTION.BlogPagination
+{
+	padding-left: 20%;
+}
+
+SECTION.BlogPagination DIV.buttonText
+{
+	width: 91px;
+	height: 29px;
+	text-align: center;
+	background-image:url('../images/PaginationText.gif');
+	background-repeat:no-repeat;
+	font-family: Century Gothic;
+	font-weight: bold;
+	color: #FFF;
+	float: left;
+	margin-left: 10px;
+	padding-top: 5px;
+}
+
+SECTION.BlogPagination DIV.buttonNumber
+{
+	width: 38px;
+	height: 29px;
+	text-align: center;
+	background-image:url('../images/PaginationNumber.gif');
+	background-repeat:no-repeat;
+	font-family: Century Gothic;
+	font-weight: bold;
+	color: #FFF;
+	float: left;
+	margin-left: 10px;
+	padding-top: 5px;
+}
+
+
+
+SECTION.container
+{
+	width: 1200px;
+}
+SECTION.containerDetail
+{
+	width: 1200px;
+	margin-left: 0%;
+}
+
+
+SECTION#BlogHeader DIV
+{
+	float: left;
+	padding-right: 10px;
+}
+DIV.button
+{
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	background-image:url('../images/BlogButton.gif');
+	background-repeat:no-repeat;
+	padding-top: 10px;
+	font-family: Century Gothic;
+	font-weight: bold;
+	color: #FFF;
+	margin-top: -15px;
+}
+
+DIV.search > INPUT
+{
+	border: 0;
+	padding: 0;
+	margin: 0;
+	background: transparent;
+}
+
+DIV.search
+{
+	background-image:url('../images/SearchBox.gif');
+	background-repeat:no-repeat;
+	width: 216px;
+	height: 40px;
+	padding-top: 10px;
+	font-family: Century Gothic;
+	margin-top: -10px;
+	padding-left: 10px;
+	font-style: italic;
+}
+
+DIV.dropdown SELECT
+{
+	background: transparent;
+	border: 0 none;
+    width: 120%;
+}
+
+DIV.dropdown
+{
+	background:url('../images/SelectOption.gif') no-repeat;
+	width: 255px;
+	height: 40px;
+	font-family: Century Gothic;
+	padding-top: 10px;
+	margin-top: -10px;
+	padding-left: 10px;
+	overflow: hidden;
+	margin-right: 10px;
+}
+
+SECTION.BlogPostPreview
+{
+	margin: 0;
+	margin-top: -20px;
+}
+.BlogPostDetails
+{
+	margin-top: -20px;
+}
+.BlogPostDetails  > SPAN
+{
+	font-style: italic;
+}
+.BlogPostTags  > SPAN
+{
+	font-weight: bold;
+}
+
+
+.BlogPostDetails  > A
+{
+	font-weight: bold;
+}
+
+DIV.BlogPostPreview
+{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+
+}
+
+DIV.BlogPost
+{
+	margin-bottom: 20px;
+
+}
+
+DIV.readMore
+{
+	color: #329f2f;
+	font-weight: bold;
+	float: right;
+}
+DIV.returnLink
+{
+	color: #329f2f;
+	font-weight: bold;
+}
+
+HR
+{
+	color: #329f2f;
+	background-color: #329f2f;
+	height: 2px;
+}
+
+SECTION.BlogPagination
+{
+	padding-left: 20%;
+}
+
+SECTION.BlogPagination DIV.buttonText
+{
+	width: 91px;
+	height: 29px;
+	text-align: center;
+	background-image:url('../images/PaginationText.gif');
+	background-repeat:no-repeat;
+	font-family: Century Gothic;
+	font-weight: bold;
+	color: #FFF;
+	float: left;
+	margin-left: 10px;
+	padding-top: 5px;
+}
+
+SECTION.BlogPagination DIV.buttonNumber
+{
+	width: 38px;
+	height: 29px;
+	text-align: center;
+	background-image:url('../images/PaginationNumber.gif');
+	background-repeat:no-repeat;
+	font-family: Century Gothic;
+	font-weight: bold;
+	color: #FFF;
+	float: left;
+	margin-left: 10px;
+	padding-top: 5px;
+}
+
+section aside#address
+{
+	background-image: url("../images/address.png");
+	width: 30em;
+	height: 15em;
+}
+
+section.container content#contact-data
+{
+	width: 20em;
+	float: left;
+}
+section.container content#contact-data p
+{
+	font-size: 16px;
+	font-weight: normal;
+}
+
+section.container content#contact-data p strong
+{
+	display: block;
+}
+
+
+DIV.button
+{
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	background-image:url('../images/BlogButton.gif');
+	background-repeat:no-repeat;
+	padding-top: 10px;
+	font-family: Century Gothic;
+	font-weight: bold;
+	color: #FFF;
+	margin-top: -15px;
+}
+
+DIV.search > INPUT
+{
+	border: 0;
+	padding: 0;
+	margin: 0;
+	background: transparent;
+}
+
+DIV.search
+{
+	background-image:url('../images/SearchBox.gif');
+	background-repeat:no-repeat;
+	width: 216px;
+	height: 40px;
+	padding-top: 10px;
+	font-family: Century Gothic;
+	margin-top: -10px;
+	padding-left: 10px;
+	font-style: italic;
+}
+
+DIV.dropdown SELECT
+{
+	background: transparent;
+	border: 0 none;
+    width: 120%;
+}
+
+DIV.dropdown
+{
+	background:url('../images/SelectOption.gif') no-repeat;
+	width: 255px;
+	height: 40px;
+	font-family: Century Gothic;
+	padding-top: 10px;
+	margin-top: -10px;
+	padding-left: 10px;
+	overflow: hidden;
+	margin-right: 10px;
+}
+
+SECTION.BlogPostPreview
+{
+	margin: 0;
+	margin-top: -20px;
+}
+
+
+
 footer {
 	background: -webkit-linear-gradient(#5bb318, #299a34);
 	/* For Safari 5.1 to 6.0 */
@@ -170,6 +558,24 @@ footer nav ul li a {
 	width: 110px;
 }
 
+.BlogPostDetails
+{
+	margin-top: -20px;
+}
+.BlogPostDetails  > SPAN
+{
+	font-style: italic;
+}
+.BlogPostTags  > SPAN
+{
+	font-weight: bold;
+}
+
+
+.BlogPostDetails  > A
+{
+	font-weight: bold;
+}
 
 #search {
 	background-color: #e5e6e6;
@@ -200,55 +606,6 @@ footer nav ul li a {
 	width: 15em;
 }
 
-section {
-	border: 4px 0 0 0;
-	margin-top: 1.8em;
-	margin-left: 12%;
-	max-width: 1020px;
-	overflow: hidden;
-}
-
-section h2 {
-	font-style: bold;
-	font-size: 2em;
-}
-
-section aside {
-	padding: 0em 1.6em 0.5em 3em;
-	float: left;
-	margin-bottom: 2em;
-	width: 18em;
-}
-
-section aside a {
-	background: #333;
-	color: #FFF;
-	display: block;
-	font-size: 1.5em;
-	padding: 0.8em 1em;
-	text-decoration: none;
-}
-
-section aside div {
-	font-size: 2em;
-	text-align: right;
-}
-
-section aside p.derecha {
-	text-align: left;
-}
-
-section content {
-	color: #333;
-	display: block;
-	margin: auto;
-	
-}
-
-section content ul {
-	color: #0066cc;
-}
-
 
 @media ( max-width : 670px) {
 	header h1 {font-size 0.8em;
@@ -271,362 +628,3 @@ section content ul {
 		display: none;
 	}
 }
-
-/*Changes Juan Mora*/
-
-SECTION.container
-{
-	width: 1200px;
-}
-SECTION.containerDetail
-{
-	width: 1200px;
-	margin-left: 0%;
-}
-
-
-SECTION#BlogHeader DIV
-{
-	float: left;
-	padding-right: 10px;
-}
-DIV.button
-{
-	width: 150px;
-	height: 50px;
-	text-align: center;
-	background-image:url('../images/BlogButton.gif');
-	background-repeat:no-repeat;
-	padding-top: 10px;
-	font-family: Century Gothic;
-	font-weight: bold;
-	color: #FFF;
-	margin-top: -15px;
-}
-
-DIV.search > INPUT
-{
-	border: 0;
-	padding: 0;
-	margin: 0;
-	background: transparent;
-}
-
-DIV.search
-{
-	background-image:url('../images/SearchBox.gif');
-	background-repeat:no-repeat;
-	width: 216px;
-	height: 40px;
-	padding-top: 10px;
-	font-family: Century Gothic;
-	margin-top: -10px;
-	padding-left: 10px;
-	font-style: italic;
-}
-
-DIV.dropdown SELECT
-{
-	background: transparent;
-	border: 0 none;
-    width: 120%;
-}
-
-DIV.dropdown
-{
-	background:url('../images/SelectOption.gif') no-repeat;
-	width: 255px;
-	height: 40px;
-	font-family: Century Gothic;
-	padding-top: 10px;
-	margin-top: -10px;
-	padding-left: 10px;
-	overflow: hidden;
-	margin-right: 10px;
-}
-
-SECTION.BlogPostPreview
-{
-	margin: 0;
-	margin-top: -20px;
-}
-.BlogPostDetails
-{
-	margin-top: -20px;
-}
-.BlogPostDetails  > SPAN
-{
-	font-style: italic;
-}
-.BlogPostTags  > SPAN
-{
-	font-weight: bold;
-}
-
-
-.BlogPostDetails  > A
-{
-	font-weight: bold;
-}
-
-DIV.BlogPostPreview
-{
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-
-}
-
-DIV.BlogPost
-{
-	margin-bottom: 20px;
-
-}
-
-DIV.readMore
-{
-	color: #329f2f;
-	font-weight: bold;
-	float: right;
-}
-DIV.returnLink
-{
-	color: #329f2f;
-	font-weight: bold;
-}
-
-HR
-{
-	color: #329f2f;
-	background-color: #329f2f;
-	height: 2px;
-}
-
-SECTION.BlogPagination
-{
-	padding-left: 20%;
-}
-
-SECTION.BlogPagination DIV.buttonText
-{
-	width: 91px;
-	height: 29px;
-	text-align: center;
-	background-image:url('../images/PaginationText.gif');
-	background-repeat:no-repeat;
-	font-family: Century Gothic;
-	font-weight: bold;
-	color: #FFF;
-	float: left;
-	margin-left: 10px;
-	padding-top: 5px;
-}
-
-SECTION.BlogPagination DIV.buttonNumber
-{
-	width: 38px;
-	height: 29px;
-	text-align: center;
-	background-image:url('../images/PaginationNumber.gif');
-	background-repeat:no-repeat;
-	font-family: Century Gothic;
-	font-weight: bold;
-	color: #FFF;
-	float: left;
-	margin-left: 10px;
-	padding-top: 5px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-BODY
-{
-	background-color: #faf7e4;
-}
-
-SECTION.container
-{
-	width: 1200px;
-}
-SECTION.containerDetail
-{
-	width: 1200px;
-	margin-left: 0%;
-}
-
-
-SECTION#BlogHeader DIV
-{
-	float: left;
-	padding-right: 10px;
-}
-DIV.button
-{
-	width: 150px;
-	height: 50px;
-	text-align: center;
-	background-image:url('../images/BlogButton.gif');
-	background-repeat:no-repeat;
-	padding-top: 10px;
-	font-family: Century Gothic;
-	font-weight: bold;
-	color: #FFF;
-	margin-top: -15px;
-}
-
-DIV.search > INPUT
-{
-	border: 0;
-	padding: 0;
-	margin: 0;
-	background: transparent;
-}
-
-DIV.search
-{
-	background-image:url('../images/SearchBox.gif');
-	background-repeat:no-repeat;
-	width: 216px;
-	height: 40px;
-	padding-top: 10px;
-	font-family: Century Gothic;
-	margin-top: -10px;
-	padding-left: 10px;
-	font-style: italic;
-}
-
-DIV.dropdown SELECT
-{
-	background: transparent;
-	border: 0 none;
-    width: 120%;
-}
-
-DIV.dropdown
-{
-	background:url('../images/SelectOption.gif') no-repeat;
-	width: 255px;
-	height: 40px;
-	font-family: Century Gothic;
-	padding-top: 10px;
-	margin-top: -10px;
-	padding-left: 10px;
-	overflow: hidden;
-	margin-right: 10px;
-}
-
-SECTION.BlogPostPreview
-{
-	margin: 0;
-	margin-top: -20px;
-}
-.BlogPostDetails
-{
-	margin-top: -20px;
-}
-.BlogPostDetails  > SPAN
-{
-	font-style: italic;
-}
-.BlogPostTags  > SPAN
-{
-	font-weight: bold;
-}
-
-
-.BlogPostDetails  > A
-{
-	font-weight: bold;
-}
-
-DIV.BlogPostPreview
-{
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-
-}
-
-DIV.BlogPost
-{
-	margin-bottom: 20px;
-
-}
-
-DIV.readMore
-{
-	color: #329f2f;
-	font-weight: bold;
-	float: right;
-}
-DIV.returnLink
-{
-	color: #329f2f;
-	font-weight: bold;
-}
-
-HR
-{
-	color: #329f2f;
-	background-color: #329f2f;
-	height: 2px;
-}
-
-SECTION.BlogPagination
-{
-	padding-left: 20%;
-}
-
-SECTION.BlogPagination DIV.buttonText
-{
-	width: 91px;
-	height: 29px;
-	text-align: center;
-	background-image:url('../images/PaginationText.gif');
-	background-repeat:no-repeat;
-	font-family: Century Gothic;
-	font-weight: bold;
-	color: #FFF;
-	float: left;
-	margin-left: 10px;
-	padding-top: 5px;
-}
-
-SECTION.BlogPagination DIV.buttonNumber
-{
-	width: 38px;
-	height: 29px;
-	text-align: center;
-	background-image:url('../images/PaginationNumber.gif');
-	background-repeat:no-repeat;
-	font-family: Century Gothic;
-	font-weight: bold;
-	color: #FFF;
-	float: left;
-	margin-left: 10px;
-	padding-top: 5px;
-}
-
-
