@@ -1,136 +1,4 @@
-body {
-	background: #ffffcc;
-	font-family: Century Gothic;
-}
 
-div.languages {
-	margin-top: 0px;
-	position: absolute;
-	right: 0.1em;
-	top: 0.1em;
-}
-
-div.languages div {
-	background: -webkit-linear-gradient(#daf5aa,#97c433 );
-	/* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(#daf5aa,#97c433);
-	/* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#daf5aa,#97c433);
-	/* For Firefox 3.6 to 15 */
-	background: linear-gradient(#daf5aa,#97c433);
-	box-shadow: 1px 1px 1px #888;
-	color:#ffffcc;
-	display: inline-block;
-	font-size:16px;
-	font-weight:bold;
-	padding: 0.3em 0.5em;
-	text-align:center;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-}
-
-
-
-header {
-	margin: 0 auto;
-	max-width: 1020px;
-	text-align: left;
-	position: relative;
-}
-
-header div.separator
-{
-	background: -webkit-linear-gradient(#299a34,#badd45 );
-	/* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(#299a34,#badd45);
-	/* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#299a34,#badd45);
-	/* For Firefox 3.6 to 15 */
-	background: linear-gradient(#299a34,#badd45);
-	box-shadow: 0px 2px 0px #888;
-	height: 0.7em;
-	margin-top:40px;
-	width: auto;
-}
-header nav ul {
-	list-style: none;
-	position: absolute;
-	right: 0.1em;
-	top: 6em;
-}
-
-header nav ul li {
-	display: inline-block;
-}
-
-header nav ul li a {
-	color: #817D7B;
-	display: block;
-	font-weight: bold;
-	font-size: 1em;
-	font-style: italic;
-	text-align: center;
-	text-decoration: none;
-	margin-left: 5em;
-	padding: 0.5em 1em;
-}
-
-header nav ul li a:hover {
-	background: -webkit-linear-gradient(#5bb318, #299a34);
-	/* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(#5bb318, #299a34);
-	/* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#5bb318, #299a34);
-	/* For Firefox 3.6 to 15 */
-	background: linear-gradient(#5bb318, #299a34);
-	/* Standard syntax (must be last) */
-	box-shadow: 1px 2px 1px #888;
-	border-radius: 10px;
-	color: #FFF;
-}
-
-footer {
-	background: -webkit-linear-gradient(#5bb318, #299a34);
-	/* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(#5bb318, #299a34);
-	/* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#5bb318, #299a34);
-	/* For Firefox 3.6 to 15 */
-	background: linear-gradient(#5bb318, #299a34);
-	/* Standard syntax (must be last) */
-	box-shadow: 0px -3px 10px #888;
-	color: #FFF;
-	height: 12em;
-}
-
-footer div {
-	display: inline;
-	float: right;
-	position: relative;
-	right: 2em;
-}
-
-footer nav ul {
-	list-style: none;
-	margin: 3em 0 1em 0;
-}
-
-footer nav ul li {
-	display: inline-block;
-}
-
-footer nav ul li a {
-	color: #32452b;
-	display: block;
-	font-size: 0.9em;
-	font-style: italic;
-	margin: 2em 0.5em 2em 0.5em;
-	padding: 0.3em 0.3em;
-	text-align: center;
-	text-decoration: none;
-	width: 6em;
-}
 
 .icon-uniE604{
 	background: #FFF;
@@ -161,14 +29,6 @@ footer nav ul li a {
 	margin-left:1em;
 }
 
-.logo {
-	background-image: url(../images/logo.png);
-	background-repeat: no-repeat;
-	display: inline-block;
-	height: 83px;
-	margin-top: 2em;
-	width: 110px;
-}
 
 
 #search {
@@ -312,18 +172,6 @@ DIV.search > INPUT
 	background: transparent;
 }
 
-DIV.search
-{
-	background-image:url('../images/SearchBox.gif');
-	background-repeat:no-repeat;
-	width: 216px;
-	height: 40px;
-	padding-top: 10px;
-	font-family: Century Gothic;
-	margin-top: -10px;
-	padding-left: 10px;
-	font-style: italic;
-}
 
 DIV.dropdown SELECT
 {
@@ -461,10 +309,6 @@ SECTION.BlogPagination DIV.buttonNumber
 
 
 
-BODY
-{
-	background-color: #faf7e4;
-}
 
 SECTION.container
 {
@@ -496,26 +340,6 @@ DIV.button
 	margin-top: -15px;
 }
 
-DIV.search > INPUT
-{
-	border: 0;
-	padding: 0;
-	margin: 0;
-	background: transparent;
-}
-
-DIV.search
-{
-	background-image:url('../images/SearchBox.gif');
-	background-repeat:no-repeat;
-	width: 216px;
-	height: 40px;
-	padding-top: 10px;
-	font-family: Century Gothic;
-	margin-top: -10px;
-	padding-left: 10px;
-	font-style: italic;
-}
 
 DIV.dropdown SELECT
 {

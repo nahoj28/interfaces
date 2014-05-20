@@ -1,100 +1,144 @@
 body {
-	font-family: "Century Gothic";
-	font-size: 1em;
-}
+  font-family: "Century Gothic";
+  font-size: 1em; }
 
 ul {
-	list-style-type: none;
-}
+  list-style-type: none; }
 
 a {
-	text-decoration: none;
-}
+  text-decoration: none; }
 
 header {
-	background-color: #f2f0de;
-}
+  background-color: #f2f0de; }
+  header div.page-sizer {
+    width: 59.375em;
+    margin: 0 auto;
+    height: 130px;
+    padding: 10px 0px; }
+    header div.page-sizer div.logo {
+      float: left;
+      width: 20%; }
+      header div.page-sizer div.logo h1 {
+        margin: 0;
+        margin-top: 10px; }
+        header div.page-sizer div.logo h1 a {
+          background-image: url("../images/logo.png");
+          background-color: transparent;
+          background-repeat: no-repeat;
+          height: 104px;
+          width: 138px;
+          display: block;
+          text-indent: -9999px; }
+    header div.page-sizer div.left-side {
+      float: right;
+      width: 80%;
+      text-align: right; }
+      header div.page-sizer div.left-side div.language-menu {
+        text-align: right;
+        height: 40px; }
+        header div.page-sizer div.left-side div.language-menu a {
+          color: #f7f8c8;
+          background: #97c433;
+          border: none;
+          border-radius: 5px;
+          box-shadow: 1px 1px 1px #484848, inset 0 4px 5px #daf5aa;
+          text-align: center;
+          display: inline-block;
+          padding-top: 2px;
+          width: 35px;
+          height: 25px; }
+      header div.page-sizer div.left-side div.search {
+        height: 40px;
+        position: relative; }
+        header div.page-sizer div.left-side div.search input#search-field {
+          position: absolute;
+          right: 0px;
+          background: #e5e6e6;
+          border: none;
+          border-radius: 5px;
+          padding: 5px;
+          box-shadow: inset 0 4px 5px #d4d5d5; }
+        header div.page-sizer div.left-side div.search input#search-button {
+          position: absolute;
+          right: 0px;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-image: url("../images/search-button.png");
+          background-color: transparent;
+          border: none;
+          width: 30px;
+          height: 30px; }
+      header div.page-sizer div.left-side nav ul {
+        margin-top: 5px;
+        font-size: 1.125em;
+        font-weight: bold; }
+        header div.page-sizer div.left-side nav ul li {
+          display: inline-block;
+          text-align: center; }
+          header div.page-sizer div.left-side nav ul li a {
+            border: solid 1px #f2f0de;
+            color: #817d7b;
+            display: block;
+            padding: 5px 8px;
+            margin: 0 5px; }
+          header div.page-sizer div.left-side nav ul li a:hover {
+            color: #ffffff;
+            border: solid 1px #5bb318;
+            border-radius: 10px;
+            background: #299a34;
+            box-shadow: 1px 1px 1px #484848, inset 0 4px 5px #5bb318; }
+  header hr {
+    background-image: url("../images/border-header.jpg");
+    background-color: transparent;
+    background-repeat: repeat-x;
+    height: 14px;
+    border: none; }
 
-header div.content-header {
-	width: 59.375em;
-	margin: 0 auto;
-	height: 130px;
-	padding: 10px 0px;
-}
-
-header div.content-header div.logo {
-	float: left;
-	width: 20%;
-}
-
-header div.content-header div.logo h1 {
-	margin: 0;
-	margin-top: 10px;
-}
-
-header div.content-header div.logo h1 a {
-	background-image: url("../images/logo.png");
-	background-color: transparent;
-	background-repeat: no-repeat;
-	height: 104px;
-	width: 138px;
-	display: block;
-	text-indent: -9999px;
-}
-
-header div.content-header div.left-side {
-	float: right;
-	width: 80%;
-	text-align: right;
-}
-
-header div.content-header div.left-side div.language-menu {
-	text-align: right;
-	height: 40px;
-}
-
-header div.content-header div.left-side div.language-menu a {
-	color: #f7f8c8;
-	background: #97c433;
-	border: none;
-	border-radius: 5px;
-	box-shadow: 1px 1px 1px #484848, inset 0 4px 5px #daf5aa;
-	text-align: center;
-	display: inline-block;
-	padding-top: 2px;
-	width: 35px;
-	height: 25px;
-}
-
-header div.content-header div.left-side div.search {
-	height: 40px;
-}
-
-header div.content-header div.left-side nav ul {
-	font-size: 1.125em;
-	font-weight: bold;
-}
-
-header div.content-header div.left-side nav ul li,header div.content-header div.left-side nav ul li.middle
-	{
-	display: inline-block;
-	width: 130px;
-	text-align: center;
-}
-
-header div.content-header div.left-side nav ul li a,header div.content-header div.left-side nav ul li.middle a
-	{
-	color: #817d7b;
-}
-
-header div.content-header div.left-side nav ul li.middle {
-	width: 78px;
-}
-
-header hr {
-	background-image: url("../images/border-header.jpg");
-	background-color: transparent;
-	background-repeat: repeat-x;
-	height: 14px;
-	border: none;
-}
+/*Content Home*/
+/*footer*/
+footer {
+  background-color: transparent;
+  background-repeat: repeat-x;
+  background-image: url("../images/footer-background.jpg");
+  box-shadow: 1px -1px 10px #484848; }
+  footer div.page-sizer {
+    height: 129px;
+    width: 59.375em;
+    margin: 0 auto; }
+    footer div.page-sizer .footer-menu {
+      float: left;
+      width: 70%;
+      text-align: left; }
+      footer div.page-sizer .footer-menu ul {
+        margin-top: 25px; }
+        footer div.page-sizer .footer-menu ul li {
+          display: inline-block; }
+          footer div.page-sizer .footer-menu ul li a {
+            color: #2d2d2d;
+            display: block;
+            padding: 5px 5px 5px 0px;
+            margin-right: 15px; }
+    footer div.page-sizer .social-media {
+      float: right;
+      width: 30%;
+      text-align: right; }
+      footer div.page-sizer .social-media ul li {
+        display: inline-block; }
+        footer div.page-sizer .social-media ul li a {
+          display: block;
+          background-color: transparent;
+          background-repeat: no-repeat;
+          width: 32px;
+          height: 32px;
+          margin-left: 10px;
+          text-indent: 100%;
+          white-space: nowrap;
+          overflow: hidden; }
+        footer div.page-sizer .social-media ul li a.facebook {
+          background-image: url("../images/facebook.png"); }
+        footer div.page-sizer .social-media ul li a.twitter {
+          background-image: url("../images/twitter.png"); }
+        footer div.page-sizer .social-media ul li a.linkedin {
+          background-image: url("../images/linkedin.png"); }
+      footer div.page-sizer .social-media div.rigth-reserved {
+        font-size: 0.875em; }
