@@ -11,14 +11,23 @@ div.languages {
 }
 
 div.languages div {
-	background-color:#99cc66;
+	background: -webkit-linear-gradient(#daf5aa,#97c433 );
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#daf5aa,#97c433);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#daf5aa,#97c433);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(#daf5aa,#97c433);
+	box-shadow: 1px 1px 1px #888;
 	color:#ffffcc;
 	display: inline-block;
 	font-size:16px;
 	font-weight:bold;
-	padding: 0.5em;
+	padding: 0.3em 0.5em;
 	text-align:center;
-	-webkit-border-radius: 3px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
 }
 
 
@@ -32,7 +41,14 @@ header {
 
 header div.separator
 {
-	background-color: green;
+	background: -webkit-linear-gradient(#299a34,#badd45 );
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#299a34,#badd45);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#299a34,#badd45);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(#299a34,#badd45);
+	box-shadow: 0px 2px 0px #888;
 	height: 0.7em;
 	margin-top:40px;
 	width: auto;
@@ -69,7 +85,7 @@ header nav ul li a:hover {
 	/* For Firefox 3.6 to 15 */
 	background: linear-gradient(#5bb318, #299a34);
 	/* Standard syntax (must be last) */
-	border: 1px solid;
+	box-shadow: 1px 2px 1px #888;
 	border-radius: 10px;
 	color: #FFF;
 }
@@ -83,6 +99,7 @@ footer {
 	/* For Firefox 3.6 to 15 */
 	background: linear-gradient(#5bb318, #299a34);
 	/* Standard syntax (must be last) */
+	box-shadow: 0px -3px 10px #888;
 	color: #FFF;
 	height: 12em;
 }
@@ -91,8 +108,7 @@ footer div {
 	display: inline;
 	float: right;
 	position: relative;
-	top: -3em;
-	right: 6em;
+	right: 2em;
 }
 
 footer nav ul {
@@ -116,6 +132,35 @@ footer nav ul li a {
 	width: 6em;
 }
 
+.icon-uniE604{
+	background: #FFF;
+	color: #88bee1;
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	border-radius: 1em;
+	font-size: 2em;
+	margin-left:1em;
+	}
+
+.icon-facebook{
+	background: #FFF;
+	color: #6d85b4;
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	border-radius: 1em;
+	font-size: 2em;
+	margin-left:1em;
+}
+.icon-twitter{
+	background: #FFF;
+	color: #88bee1;
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	border-radius: 1em;
+	font-size: 2em;
+	margin-left:1em;
+}
+
 .logo {
 	background-image: url(../images/logo.png);
 	background-repeat: no-repeat;
@@ -129,6 +174,7 @@ footer nav ul li a {
 #search {
 	background-color: #e5e6e6;
 	border: 0 none;
+	color: #888;
 	display: inline;
 	position: absolute;
 	right: 0.1em;
@@ -138,13 +184,9 @@ footer nav ul li a {
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
-	text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
-	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0
-		rgba(0, 0, 0, 0.9) inset;
-	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0
-		rgba(0, 0, 0, 0.9) inset;
-	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9)
-		inset;
+	-webkit-box-shadow: 4px 4px 5px #d7d8d8 inset;
+	-moz-box-shadow: 4px 4px 5px #d7d8d8 inset;
+	box-shadow: 4px 4px 5px #d7d8d8 inset;
 }
 
 #search label[for="search"] {
@@ -154,6 +196,7 @@ footer nav ul li a {
 #search input[type="text"] {
 	background-color: #e5e6e6;
 	border-style: none;
+	height: 1em;
 	width: 15em;
 }
 
@@ -161,6 +204,7 @@ section {
 	border: 4px 0 0 0;
 	margin-top: 1.8em;
 	margin-left: 12%;
+	max-width: 1020px;
 	overflow: hidden;
 }
 
@@ -170,12 +214,10 @@ section h2 {
 }
 
 section aside {
-	padding: 1em 1.6em 0.5em 1.6em;
-	background: #CCC;
+	padding: 0em 1.6em 0.5em 3em;
 	float: left;
 	margin-bottom: 2em;
-	text-align: center;
-	width: 13em;
+	width: 18em;
 }
 
 section aside a {
@@ -196,26 +238,17 @@ section aside p.derecha {
 	text-align: left;
 }
 
-section aside p#think {
-	color: #0c66c0;
-	font-size: 2.2em;
-}
-
 section content {
 	color: #333;
 	display: block;
-	padding-left: 18em;
-	margin-right: 15%;
+	margin: auto;
+	
 }
 
 section content ul {
 	color: #0066cc;
 }
 
-section content ul span {
-	color: #333;
-	font-weight: bold;
-}
 
 @media ( max-width : 670px) {
 	header h1 {font-size 0.8em;
