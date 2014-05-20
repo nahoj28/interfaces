@@ -272,6 +272,171 @@ section content ul {
 	}
 }
 
+/*Changes Juan Mora*/
+
+SECTION.container
+{
+	width: 1200px;
+}
+SECTION.containerDetail
+{
+	width: 1200px;
+	margin-left: 0%;
+}
+
+
+SECTION#BlogHeader DIV
+{
+	float: left;
+	padding-right: 10px;
+}
+DIV.button
+{
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	background-image:url('../images/BlogButton.gif');
+	background-repeat:no-repeat;
+	padding-top: 10px;
+	font-family: Century Gothic;
+	font-weight: bold;
+	color: #FFF;
+	margin-top: -15px;
+}
+
+DIV.search > INPUT
+{
+	border: 0;
+	padding: 0;
+	margin: 0;
+	background: transparent;
+}
+
+DIV.search
+{
+	background-image:url('../images/SearchBox.gif');
+	background-repeat:no-repeat;
+	width: 216px;
+	height: 40px;
+	padding-top: 10px;
+	font-family: Century Gothic;
+	margin-top: -10px;
+	padding-left: 10px;
+	font-style: italic;
+}
+
+DIV.dropdown SELECT
+{
+	background: transparent;
+	border: 0 none;
+    width: 120%;
+}
+
+DIV.dropdown
+{
+	background:url('../images/SelectOption.gif') no-repeat;
+	width: 255px;
+	height: 40px;
+	font-family: Century Gothic;
+	padding-top: 10px;
+	margin-top: -10px;
+	padding-left: 10px;
+	overflow: hidden;
+	margin-right: 10px;
+}
+
+SECTION.BlogPostPreview
+{
+	margin: 0;
+	margin-top: -20px;
+}
+.BlogPostDetails
+{
+	margin-top: -20px;
+}
+.BlogPostDetails  > SPAN
+{
+	font-style: italic;
+}
+.BlogPostTags  > SPAN
+{
+	font-weight: bold;
+}
+
+
+.BlogPostDetails  > A
+{
+	font-weight: bold;
+}
+
+DIV.BlogPostPreview
+{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+
+}
+
+DIV.BlogPost
+{
+	margin-bottom: 20px;
+
+}
+
+DIV.readMore
+{
+	color: #329f2f;
+	font-weight: bold;
+	float: right;
+}
+DIV.returnLink
+{
+	color: #329f2f;
+	font-weight: bold;
+}
+
+HR
+{
+	color: #329f2f;
+	background-color: #329f2f;
+	height: 2px;
+}
+
+SECTION.BlogPagination
+{
+	padding-left: 20%;
+}
+
+SECTION.BlogPagination DIV.buttonText
+{
+	width: 91px;
+	height: 29px;
+	text-align: center;
+	background-image:url('../images/PaginationText.gif');
+	background-repeat:no-repeat;
+	font-family: Century Gothic;
+	font-weight: bold;
+	color: #FFF;
+	float: left;
+	margin-left: 10px;
+	padding-top: 5px;
+}
+
+SECTION.BlogPagination DIV.buttonNumber
+{
+	width: 38px;
+	height: 29px;
+	text-align: center;
+	background-image:url('../images/PaginationNumber.gif');
+	background-repeat:no-repeat;
+	font-family: Century Gothic;
+	font-weight: bold;
+	color: #FFF;
+	float: left;
+	margin-left: 10px;
+	padding-top: 5px;
+}
+
 
 
 
