@@ -6,7 +6,7 @@ ul {
   list-style-type: none; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none; color: inherit;}
 
 header {
   background-color: #f2f0de; }

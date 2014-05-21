@@ -62,7 +62,6 @@
 
 section {
 	border: 4px 0 0 0;
-	margin-top: 1.8em;
 	margin-left: 12%;
 	max-width: 1020px;
 	overflow: hidden;
@@ -255,68 +254,43 @@ SECTION.BlogPagination
 	padding-left: 20%;
 }
 
-SECTION.BlogPagination DIV.buttonText
-{
-	width: 91px;
-	height: 29px;
-	text-align: center;
-	background-image:url('../images/PaginationText.gif');
-	background-repeat:no-repeat;
-	font-family: Century Gothic;
-	font-weight: bold;
-	color: #FFF;
-	float: left;
-	margin-left: 10px;
-	padding-top: 5px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section.container {
+    margin: 0 auto;
+    padding-left: 4em;
+    width: 60em;
 }
-
-SECTION.BlogPagination DIV.buttonNumber
-{
-	width: 38px;
-	height: 29px;
-	text-align: center;
-	background-image:url('../images/PaginationNumber.gif');
-	background-repeat:no-repeat;
-	font-family: Century Gothic;
-	font-weight: bold;
-	color: #FFF;
-	float: left;
-	margin-left: 10px;
-	padding-top: 5px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 SECTION.container
 {
-	width: 1200px;
+	margin-bottom: 20px;
 }
 SECTION.containerDetail
 {
-	width: 1200px;
+	margin-bottom: 20px;
 	margin-left: 0%;
 }
 
@@ -425,32 +399,22 @@ SECTION.BlogPagination
 
 SECTION.BlogPagination DIV.buttonText
 {
-	width: 91px;
+          
+	color: #ffffff;
+	border: solid 1px #5bb318;
+	border-radius: 10px;
+	background: #afd65e;
+	box-shadow: 1px 1px 1px , inset 0 4px 5px; 
 	height: 29px;
 	text-align: center;
-	background-image:url('../images/PaginationText.gif');
-	background-repeat:no-repeat;
 	font-family: Century Gothic;
 	font-weight: bold;
 	color: #FFF;
 	float: left;
+    padding-left: 10px; 
+    padding-right: 10px;
+    padding-top: 10px;
 	margin-left: 10px;
-	padding-top: 5px;
-}
-
-SECTION.BlogPagination DIV.buttonNumber
-{
-	width: 38px;
-	height: 29px;
-	text-align: center;
-	background-image:url('../images/PaginationNumber.gif');
-	background-repeat:no-repeat;
-	font-family: Century Gothic;
-	font-weight: bold;
-	color: #FFF;
-	float: left;
-	margin-left: 10px;
-	padding-top: 5px;
 }
 
 section aside#address
@@ -458,4 +422,44 @@ section aside#address
 	background-image: url("../images/address.png");
 	width: 30em;
 	height: 15em;
+}
+
+
+
+
+
+
+
+#BlogHeader DIV.search
+{
+	background-image:url('../images/SearchBox.gif');
+	background-repeat:no-repeat;
+	width: 216px;
+	height: 40px;
+	padding-top: 10px;
+	font-family: Century Gothic;
+	margin-top: -10px;
+	padding-left: 10px;
+	font-style: italic;
+}
+
+@media (max-width: 700px) {
+  section#BlogHeader {
+    display: none;
+  }
+  section
+  {
+	margin-left: 0px;
+	max-width: 380px;
+  }
+  section.container{ padding-left: 0; }
+  SECTION.BlogPagination DIV.buttonText
+  {
+	float: none;
+  }
+  
+  SECTION.containerDetail
+  {
+  width: 100%;
+  }
 }
