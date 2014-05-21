@@ -1,45 +1,13 @@
-
-
-.icon-uniE604{
-	background: #FFF;
-	color: #88bee1;
-	-webkit-border-radius: 1em;
-	-moz-border-radius: 1em;
-	border-radius: 1em;
-	font-size: 2em;
-	margin-left:1em;
-	}
-
-.icon-facebook{
-	background: #FFF;
-	color: #6d85b4;
-	-webkit-border-radius: 1em;
-	-moz-border-radius: 1em;
-	border-radius: 1em;
-	font-size: 2em;
-	margin-left:1em;
-}
-.icon-twitter{
-	background: #FFF;
-	color: #88bee1;
-	-webkit-border-radius: 1em;
-	-moz-border-radius: 1em;
-	border-radius: 1em;
-	font-size: 2em;
-	margin-left:1em;
-}
-
-
-
 #search {
 	background-color: #e5e6e6;
 	border: 0 none;
 	color: #888;
 	display: inline;
+	font: bold 12px Arial, Helvetica, Sans-serif;
+	margin-right: 2em;
+	padding: 12px 2px 12px 5px;
 	right: 0.1em;
 	top: 4.5em;
-	font: bold 12px Arial, Helvetica, Sans-serif;
-	padding: 12px 2px 12px 5px;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
@@ -79,6 +47,21 @@ section content {
 	margin: auto;
 
 }
+section content  span {
+
+	color: #FFF;
+	background-image:url('../images/BlogButton.gif');
+	background-repeat:no-repeat;
+	display: inline-block;
+	font-family: Century Gothic;
+	font-weight: bold;
+	height: 50px;
+	margin-left: 1em;
+	text-align: center;
+	padding-top: 10px;
+	width: 150px;
+}
+
 
 section content div.detail{
 	margin: 2em 0em;
@@ -112,17 +95,12 @@ section content ul {
 	header h1 {font-size 0.8em;
 		padding: 0.8em 1em 0em 1em;
 	}
-	section aside {
-		display: none;
+	
+	
+	#search input[type="text"] {
+		margin-bottom: 3em;
 	}
-	nav ul {
-		margin: 0
-	}
-	nav ul li a {
-		font-size: 0.8em;
-		padding: 0.3em 0.5em;
-	}
-	section content {
+	section content div{
 		padding-left: 1;
 	}
 	section content div.detail_text {
@@ -130,6 +108,9 @@ section content ul {
 	}
 	div.detail img {
 		display: none;
+	}
+	section content  span {
+		display: block;
 	}
 }
 
@@ -465,52 +446,3 @@ section aside#address
   width: 100%;
   }
 }
-
-
-/* Changes Jhoan Sanchez */
-body {
-	background-color: #faf7e4;
-	margin-left:  15em;
-	margin-right: 10em;
-}
-
-canvas{
-	background-color: #46a837;
-	width: 100%;
-	height: 5px; 
-}
-
-h1{ 
-	font-family: 'Century Gothic';
-	font-size: 26px;
-	font-weight: bold;
-}
-
-h2{ 
-	font-family: 'Century Gothic';
-	font-size: 24px;
-	font-weight: bold;
-}
-
-h3{ 
-	font-family: 'Century Gothic';
-	font-size: 16px;
-	font-weight: bold;
-	font-style: italic;
-}
-
-a{ 
-	font-style: normal;
-	color:#329f2f;
-}
-
-img{ 
-	margin-right: 0.5em;
-	float: left;
-}
-
-section{ 
-	font-family: 'Century Gothic';
-	font-size: 16px;
-}
-/* Fin Styles*/
