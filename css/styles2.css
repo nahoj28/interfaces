@@ -1,20 +1,35 @@
+h2, h3, h4 {
+  margin: 0; }
+
+h2 {
+  font-size: 1.625em;
+  padding: 20px 0; }
+
+h3 {
+  font-size: 1.5em; }
+
+h4 {
+  font-size: 1.25em; }
+
+ul.item-list {
+  padding-left: 15px;
+  list-style-type: square; }
+
 body {
   font-family: "Century Gothic";
-  font-size: 1em; 
-  background-color: #FAF7E4;
- }
+  font-size: 1em; }
 
 ul {
   list-style-type: none; }
 
 a {
-  text-decoration: none; color: inherit;}
+  text-decoration: none; }
 
 .clear {
   clear: both; }
 
 .spacer1 {
-  margin-bottom: 30px; }
+  padding-bottom: 30px; }
 
 header {
   background-color: #f2f0de; }
@@ -111,6 +126,9 @@ header {
 /*Content Home*/
 section.main {
   background-color: #faf7e4; }
+  section.main div.page-sizer {
+    width: 59.375em;
+    margin: 0 auto; }
   section.main div.banner {
     height: 400px;
     background-image: url("../images/background-banner.jpg");
@@ -178,8 +196,6 @@ section.main {
           font-weight: bold;
           text-align: center; }
   section.main div.widgets {
-    width: 59.375em;
-    margin: 0 auto;
     padding-top: 30px; }
     section.main div.widgets div.box-widget {
       float: left;
@@ -237,6 +253,29 @@ section.main {
       border: none;
       border-radius: 15px;
       box-shadow: 1px 1px 1px #484848, inset 0 -10px 5px #eba029; }
+  section.main div.black-box {
+    background: #525257;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px #484848, inset 0 -10px 5px #2f2c2d; }
+    section.main div.black-box h3 {
+      padding-left: 20px;
+      color: #fff; }
+    section.main div.black-box a.read-more {
+      padding: 8px 8px 8px 15px;
+      margin: 0 5px;
+      display: block;
+      font-weight: bold;
+      color: #ffffff;
+      border-radius: 10px;
+      background: #289a35;
+      box-shadow: 1px 1px 1px #484848, inset 0 -6px 5px #076950;
+      width: 150px; }
+      section.main div.black-box a.read-more::after {
+        content: ">";
+        padding-left: 10px;
+        border-left: 1px solid white;
+        margin-left: 12px; }
 
 /*footer*/
 footer {
@@ -285,118 +324,3 @@ footer {
           background-image: url("../images/linkedin.png"); }
       footer div.page-sizer .social-media div.rigth-reserved {
         font-size: 0.875em; }
-
-/*contact us */
-section.container content#contact-form {
-	display: inline-block;
-	padding-left: 4em;
-	padding-right: 4em;
-}
-
-section.container content#contact-form p {
-	font-weight: bold;
-}
-
-section.container content#contact-form div.form {
-	background-color: #009999;
-	border: medium none;
-	border-radius: 0.6em;
-	box-shadow: 0 4px 5px #D4D5D5 inset;
-	margin: auto;
-	padding: 2.5em 0 2.5em 2em;
-	width: 25em;
-}
-
-section.container content#contact-form div.form div.field {
-	margin-bottom: .8em;
-}
-
-section.container content#contact-form div.form div.field label {
-	color: #fff;
-	display: inline-block;
-	font-weight: bold;
-	font-style: italic;
-	text-align: right;
-	width: 8em;
-	font-weight: bold;
-}
-
-section.container content#contact-form div.form div.field label span {
-	color: #ff0000;
-}
-
-section.container content#contact-form div.form div.field input[type="text"]
-	{
-	background: none repeat scroll 0 0 #E5E6E6;
-	border: medium none;
-	border-radius: 5px 5px 5px 5px;
-	box-shadow: 0 4px 5px #D4D5D5 inset;
-	height: 2.3em;
-	margin-left: 0.5em;
-	padding: 0.2em;
-	width: 15em;
-}
-
-section.container content#contact-form div.form div.field input.textarea
-	{
-	height: 5.5em;
-}
-
-section.container content#contact-form div.form div.button input {
-	background-color: #339933;
-	border: medium none;
-	border-radius: 0.5em;
-	box-shadow: 0 4px 5px #D4D5D5 inset;
-}
-
-section.container content#contact-form div.form div.button input.read-more {
-    padding: 8px 8px 8px 15px;
-    margin: 0 5px;
-    display: block;
-    font-weight: bold;
-    color: #ffffff;
-    border-radius: 10px;
-    background: #289a35;
-    box-shadow: 1px 1px 1px #484848, inset 0 -6px 5px #076950;
-    width: 120px;
-}
-
-section.container div.separator {
-	background-color: rgba(0, 0, 0, 0);
-	background-image: url("../images/content-separator.png");
-	background-repeat: repeat-x;
-	border: medium none;
-	height: 14px;
-	margin: 0 0 2em 0;
-}
-
-section.container {
-	margin: 0px auto;
-	width: 59.375em;
-}
-
-section aside#address {
-	background-image: url("../images/address.png");
-	display: inline-block;
-	width: 25em;
-	height: 15em;
-	padding-right: 4em;
-}
-
-section content#contact-data {
-	display: inline-block;
-	width: 23em;
-	padding-left: 4em;
-}
-
-section content#contact-data p {
-	font-size: 16px;
-	font-weight: normal;
-}
-
-section content#contact-data p strong {
-	display: block;
-}
-
-
-/*end contact us*/
