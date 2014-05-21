@@ -82,11 +82,12 @@ section content div img{
 	float: left;
 
 }
-div.GoTo
-{
+div .GoTo {
+	margin-top: -1em
+}
+div .GoTo a{
 	color: #329f2f;
 	font-weight: bold;
-	margin-top: -1em
 }
 section content ul {
 	color: #0066cc;
@@ -102,10 +103,10 @@ section content ul {
 	#search input[type="text"] {
 		margin-bottom: 3em;
 	}
-	section.BlogPagination{
-		padding-left: 5%;
-		padding-right: 25%;
+	SECTION.BlogPagination{
+		padding-left: 3%;
 	}
+	
 	section content div{
 		padding-left: 1;
 	}
@@ -118,6 +119,7 @@ section content ul {
 	section content  span {
 		display: block;
 	}
+	
 }
 
 /*Changes Juan Mora*/
@@ -237,6 +239,11 @@ HR
 	background-color: #329f2f;
 	height: 2px;
 }
+-	SECTION.BlogPagination
+-	{
+-		padding-left: 20%;
+-	}
+
 
 section.container {
     margin: 0 auto;
