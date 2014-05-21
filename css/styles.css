@@ -181,6 +181,7 @@ footer {
 	background-repeat: repeat-x;
 	background-image: url("../images/footer-background.jpg");
 	box-shadow: 1px -1px 10px #484848;
+	margin-top: 4em;
 }
 
 footer div.page-sizer {
@@ -262,15 +263,15 @@ section.container content#contact-form p {
 section.container content#contact-form div.form {
 	background-color: #009999;
 	border: medium none;
-	border-radius: 0.5em;
+	border-radius: 0.6em;
 	box-shadow: 0 4px 5px #D4D5D5 inset;
 	margin: auto;
-	padding: 2em 0 2em 2em;
-	width: 30em;
+	padding: 2.5em 0 2.5em 2em;
+	width: 25em;
 }
 
 section.container content#contact-form div.form div.field {
-	margin-bottom: .5em;
+	margin-bottom: .8em;
 }
 
 section.container content#contact-form div.form div.field label {
@@ -279,7 +280,7 @@ section.container content#contact-form div.form div.field label {
 	font-weight: bold;
 	font-style: italic;
 	text-align: right;
-	width: 10em;
+	width: 8em;
 	font-weight: bold;
 }
 
