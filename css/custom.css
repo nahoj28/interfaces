@@ -341,6 +341,7 @@ DIV.returnLink
 {
 	color: #329f2f;
 	font-weight: bold;
+	margin-top: 10px;
 }
 
 HR
@@ -421,7 +422,7 @@ SECTION.BlogPagination DIV.current {
     text-align: center;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 380px) {
   section#BlogHeader {
     display: none;
   }
@@ -431,7 +432,13 @@ SECTION.BlogPagination DIV.current {
 	max-width: 380px;
   }
   section.container{ padding-left: 0; }
-  SECTION.BlogPagination DIV.buttonText
+  SECTION.BlogPagination
+  {
+	height: 290px;
+  
+  }
+  
+  SECTION.BlogPagination DIV.buttonText, SECTION.BlogPagination DIV.current
   {
 	float: none;
   }
