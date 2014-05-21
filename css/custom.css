@@ -220,7 +220,7 @@ DIV.readMore
 {
 	color: #329f2f;
 	font-weight: bold;
-	float: right;
+	text-align: right;
 }
 DIV.returnLink
 {
@@ -333,7 +333,7 @@ DIV.readMore
 {
 	color: #329f2f;
 	font-weight: bold;
-	float: right;
+	text-align: right;
 }
 DIV.returnLink
 {
@@ -351,6 +351,7 @@ HR
 SECTION.BlogPagination
 {
 	padding-left: 20%;
+	 height: 50px;
 }
 
 SECTION.BlogPagination DIV.buttonText
@@ -397,6 +398,25 @@ section aside#address
 	margin-top: -10px;
 	padding-left: 10px;
 	font-style: italic;
+}
+
+#BlogHeader
+{
+	height: 100px;
+}
+
+
+SECTION.BlogPagination DIV.current {
+    color: #329F2F;
+    float: left;
+    font-family: Century Gothic;
+    font-weight: bold;
+    height: 29px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    text-align: center;
 }
 
 @media (max-width: 700px) {
