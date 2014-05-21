@@ -429,7 +429,13 @@ SECTION.BlogPagination DIV.current {
 	max-width: 380px;
   }
   section.container{ padding-left: 0; }
-  SECTION.BlogPagination DIV.buttonText
+  SECTION.BlogPagination
+  {
+	height: 290px;
+  
+  }
+  
+  SECTION.BlogPagination DIV.buttonText, SECTION.BlogPagination DIV.current
   {
 	float: none;
   }
