@@ -463,3 +463,52 @@ section aside#address
   width: 100%;
   }
 }
+
+
+/* Changes Jhoan Sanchez */
+body {
+	background-color: #faf7e4;
+	margin-left:  15em;
+	margin-right: 10em;
+}
+
+canvas{
+	background-color: #46a837;
+	width: 100%;
+	height: 5px; 
+}
+
+h1{ 
+	font-family: 'Century Gothic';
+	font-size: 26px;
+	font-weight: bold;
+}
+
+h2{ 
+	font-family: 'Century Gothic';
+	font-size: 24px;
+	font-weight: bold;
+}
+
+h3{ 
+	font-family: 'Century Gothic';
+	font-size: 16px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+a{ 
+	font-style: normal;
+	color:#329f2f;
+}
+
+img{ 
+	margin-right: 0.5em;
+	float: left;
+}
+
+section{ 
+	font-family: 'Century Gothic';
+	font-size: 16px;
+}
+/* Fin Styles*/
