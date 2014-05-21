@@ -420,7 +420,7 @@ SECTION.BlogPagination DIV.current {
     text-align: center;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 380px) {
   section#BlogHeader {
     display: none;
   }
