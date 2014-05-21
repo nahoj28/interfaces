@@ -335,6 +335,8 @@ DIV.readMore
 	font-weight: bold;
 	text-align: right;
 }
+
+
 DIV.returnLink
 {
 	color: #329f2f;
@@ -438,4 +440,22 @@ SECTION.BlogPagination DIV.current {
   {
   width: 100%;
   }
+}
+
+/*Changes JS*/
+article a{ 
+	font-style: normal;
+	color:#329f2f;
+}
+
+article img{ 
+	margin-right: 0.5em;
+	float: left;
+}
+
+h3{ 
+	font-family: 'Century Gothic';
+	font-size: 16px;
+	font-weight: bold;
+	font-style: italic;
 }
