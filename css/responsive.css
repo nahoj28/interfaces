@@ -1,0 +1,64 @@
+@media ( max-width : 380px) {
+	section.container div.separator {
+		margin: 0;
+	}
+	section.container content#contact-form div.form {
+		width: auto;
+	}
+	section.container content#contact-form div.form,section.container content#contact-form div.form div.field label
+		{
+		display: block;
+		text-align: left;
+	}
+	section.container content#contact-form div.form div.field {
+		margin-bottom: .2em;
+	}
+	section.container content#contact-form {
+		display: inline-block;
+		padding-left: .1em;
+		padding-right: .1em;
+	}
+	section.container {
+		width: auto;
+	}
+	section aside#address,section content#contact-data {
+		display: none;
+	}
+	header div.page-sizer {
+		width: auto;
+	}
+	header div.page-sizer div.left-side {
+		float: none;
+		text-align: left;
+	}
+	header div.page-sizer div.left-side div.language-menu,header div.page-sizer div.left-side div.search
+		{
+		display: none;
+	}
+	header div.page-sizer div.left-side nav ul {
+		font-size: 0.7em;
+		font-weight: bold;
+		margin-left: 10em;
+		margin-top: -0.7em;
+	}
+	header div.page-sizer div.left-side nav ul li {
+		display: block;
+	}
+	footer 
+	{
+	margin-top: 0.1em;
+	}
+	footer div.page-sizer {
+		height: 7em;
+		margin: 0 auto;
+		width: auto;
+	}
+	footer div.page-sizer .footer-menu {
+		display: none;
+	}
+	footer div.page-sizer .social-media {
+		margin: auto;
+		text-align: center;
+		width: 20em;
+	}
+}
