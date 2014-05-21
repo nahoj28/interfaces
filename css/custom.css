@@ -31,7 +31,6 @@ section {
 	border: 4px 0 0 0;
 	margin-left: 12%;
 	max-width: 1020px;
-	overflow: hidden;
 }
 
 section h2 {
@@ -99,6 +98,10 @@ section content ul {
 	
 	#search input[type="text"] {
 		margin-bottom: 3em;
+	}
+	section.BlogPagination{
+		padding-left: 5%;
+		padding-right: 25%;
 	}
 	section content div{
 		padding-left: 1;
@@ -231,36 +234,6 @@ HR
 	background-color: #329f2f;
 	height: 2px;
 }
-
-SECTION.BlogPagination
-{
-	padding-left: 20%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 section.container {
     margin: 0 auto;
