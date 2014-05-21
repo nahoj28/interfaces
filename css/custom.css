@@ -36,7 +36,6 @@
 	border: 0 none;
 	color: #888;
 	display: inline;
-	position: absolute;
 	right: 0.1em;
 	top: 4.5em;
 	font: bold 12px Arial, Helvetica, Sans-serif;
@@ -72,30 +71,7 @@ section h2 {
 	font-size: 2em;
 }
 
-section aside {
-	padding: 0em 1.6em 0.5em 3em;
-	float: left;
-	margin-bottom: 2em;
-	width: 18em;
-}
 
-section aside a {
-	background: #333;
-	color: #FFF;
-	display: block;
-	font-size: 1.5em;
-	padding: 0.8em 1em;
-	text-decoration: none;
-}
-
-section aside div {
-	font-size: 2em;
-	text-align: right;
-}
-
-section aside p.derecha {
-	text-align: left;
-}
 
 section content {
 	color: #333;
@@ -104,12 +80,35 @@ section content {
 
 }
 
+section content div.detail{
+	margin: 2em 0em;
+	
+}
+
+section content div.detail_text {
+	padding-left: 12em;
+}
+
+section content div p {
+	margin-top: -1.7em;
+}
+section content div img{
+	margin-top: 1.3em;
+	float: left;
+
+}
+div.GoTo
+{
+	color: #329f2f;
+	font-weight: bold;
+	margin-top: -1em
+}
 section content ul {
 	color: #0066cc;
 }
 
 
-@media ( max-width : 670px) {
+@media ( max-width : 380px) {
 	header h1 {font-size 0.8em;
 		padding: 0.8em 1em 0em 1em;
 	}
@@ -124,9 +123,12 @@ section content ul {
 		padding: 0.3em 0.5em;
 	}
 	section content {
-		padding-left: 0;
+		padding-left: 1;
 	}
-	section content div {
+	section content div.detail_text {
+		padding-left: 1em;
+	}
+	div.detail img {
 		display: none;
 	}
 }
